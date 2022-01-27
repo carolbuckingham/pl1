@@ -1,7 +1,7 @@
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 5,
-    // updated map center to reflect Ontario vs Australia
+    // updated map center and zoom to reflect Ontario vs Australia
     center: { lat: 49.078, lng: -84.960 },
   });
   // Create an array of alphabetical characters used to label the markers.
