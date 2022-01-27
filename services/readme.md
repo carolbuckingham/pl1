@@ -24,3 +24,6 @@ Now that you have seen a custom map, let us look at some more services that powe
 The instructions to follow are provided in the markdown document: 
 #### [directions.md](directions.md) - Explore the Directions API here, then complete the activity at the end for marks
 Follow these instructions to explore how service based requests occur and how to interpret their JSON responses. Once you understand the URL request and JSON response,  complete the activity by modifying the mydirections.md markdown document with your novel Google Directions API URL. 
+
+
+Simple Map completed 27 Jan 2022 by CB.

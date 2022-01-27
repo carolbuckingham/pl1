@@ -28,3 +28,6 @@ For this activity modify the provided example files to show the points from the 
 > ="{ lat: "&B2&", lng: "&C2&"},"
 > ```
 ---
+
+
+Clustering Map in progress 27 Jan 2022; CB.

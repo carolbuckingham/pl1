@@ -22,14 +22,14 @@ First step is to deploy the template into your own account.
 8. Under `Source: Branch`, select `Main`. Leave the other settings as Root
 9. Click `Save` to commit this. 
 
-Now your repository will be accessible under GitHub Pages (an HTML Web Server) at `https://carolbuckingham.github.io/pl1` where `[username]` is your GitHub account username and the repository name is `pl1`. Note you must type this manually into the URL above, or better yet, modify the ReadMe.md to change [username] to be your actual username! 
+Now your repository will be accessible under GitHub Pages (an HTML Web Server) at `https://[username].github.io/pl1` where `[username]` is your GitHub account username and the repository name is `pl1`. Note you must type this manually into the URL above, or better yet, modify the ReadMe.md to change [username] to be your actual username! 
 
 ## Activities to complete
 
 In this repository you will need to create content in this repository from the following activities:
 
 - [x] Google MyMaps Sharkspotters tutorial. 
-- [ ] Maps - Simple HTML Map Example
+- [x] Maps - Simple HTML Map Example
 - [ ] Routes - Directions API - URL request JSON response
 - [ ] Modify Dynamic Map Clustering example to show Ontario Parks
 - [ ] Create your Story using Google Dynamic Maps (JavaScript) in the provided folder
