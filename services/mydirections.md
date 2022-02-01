@@ -15,7 +15,7 @@ https://YourDirectionsApiURLGoesHere
 ## Next paste the full JSON response to this query here:
 
 ```JSON
-PASTE_YOUR_JSON_RESULTS_HERE
+This has been moved to mydirections.js within the services branch
 ```
 ____
 ## Rubric
