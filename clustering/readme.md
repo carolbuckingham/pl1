@@ -30,4 +30,4 @@ For this activity modify the provided example files to show the points from the 
 ---
 
 
-Clustering Map in progress 27 Jan 2022; CB.
+Clustering Map completed 29 Jan 2022 by CB.
