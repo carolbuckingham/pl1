@@ -28,4 +28,4 @@ Follow these instructions to explore how service based requests occur and how to
 
 Simple Map completed 27 Jan 2022 by CB.
 
-mydirections.js created 01 Feb 2022 by CB.
+My Directions completed 02 Feb 2022 by CB.
