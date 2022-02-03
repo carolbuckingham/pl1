@@ -43,6 +43,7 @@ function initMap() {
   
     bikeLayer.setMap(map);
   }
- */
+ 
   // [END maps_layer_bicycling]
   export { initMap };
+*/
