@@ -2,12 +2,14 @@
 let map;
 
 function initMap() {
-  // Javascript for dark mode map adapted from: https://developers.google.com/maps/documentation/javascript/examples/style-array
   const map = new google.maps.Map(document.getElementById("map"), {
       center: { lat: 44.245, lng: -76.545 },
       zoom: 13,
-      mapTypeId: google.maps.MapTypeId.HYBRID
+      mapTypeId: 'hybrid'
   });
+  
+  // Javascript for disabling 45 degree imagery acquired from: https://developers.google.com/maps/documentation/javascript/maptypes
+  map.setTilt(0);
 
   // Javascript for marker accessibility was adapted from: https://developers.google.com/maps/documentation/javascript/examples/marker-accessibility
   // I had to remove the cycling section included in the template "const walkLocs: [google.maps.LatLngLiteral, string][]"
