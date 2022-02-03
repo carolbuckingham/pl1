@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>The Simple Things</title>
+    <title>Nature Areas of Kingston</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <script src="./story.js"></script>
     <style>
@@ -13,13 +13,34 @@
       /* Optional: Makes the sample page fill the window. */
       html,
       body {
+        /* set background colour to "Charleston Green", 
+        HEX found via https://coolors.co/ */
+        background-color: #2C3531; 
         height: 100%;
         margin: 0;
         padding: 0;
       }
+      /* set colour and font styling for all text elements */
+      * {
+        text-align: center;
+	      color: #D9B08C;
+        /* I want my text to look fancy and mystical but still readable */
+	      font-family: "Garamond", "Baskerville", serif;
+      }
+      /* set font size for each of the text elements */
+      h1 {
+        font-size: 35px;
+      }
+      p {
+        font-size: 20px;
+      }
     </style>
   </head>
   <body>
+    <h1>Neature Walks</h1>
+    <p>I used to live in Kingston when I was younger, and I've visited both family and friends in the area on many occasions. 
+      I've always been a nature buff and love spending my time outdoors in 'neature', because hey, nature is pretty neat.</p>
+    <p>If you're interested to hear more about how neat nature is, click <a href="https://www.youtube.com/watch?v=Hm3JodBR-vs">here!</a></p>
     <div id="map"></div>
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w&callback=initMap&v=weekly" async></script>
