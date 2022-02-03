@@ -1,11 +1,14 @@
-// This is where I will put my js for the custom map
+/* Carol Buckingham; 03 Feb 2022
+  created for GEOM 99 Web GIS Development under the direction of Shawn Morgan
+  this file includes the Javascript for Week 1/2 storymap website */
 let map;
 
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
-      center: { lat: 44.245, lng: -76.545 },
-      zoom: 13,
-      mapTypeId: 'hybrid'
+    // I created an arbritrary center point from the lats and longs provided below  
+    center: { lat: 44.245, lng: -76.545 },
+    zoom: 13,
+    mapTypeId: 'hybrid'
   });
   
   // Javascript for disabling 45 degree imagery acquired from: https://developers.google.com/maps/documentation/javascript/maptypes
