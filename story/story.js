@@ -20,7 +20,7 @@ function initMap() {
   const infoWindow = new google.maps.InfoWindow();
 
   // Creates the markers
-  tourStops.forEach(([position, title], i) => {
+  walkLocs.forEach(([position, title], i) => {
     const marker = new google.maps.Marker({
       position,
       map,
