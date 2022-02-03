@@ -2,10 +2,10 @@
 let map;
 
 function initMap() {
-    const map = new google.maps.Map(document.getElementById("map"), {
-        center: { lat: 44.245, lng: -76.545 },
-        zoom: 13,
-      });
+  const map = new google.maps.Map(document.getElementById("map"), {
+      center: { lat: 44.245, lng: -76.545 },
+      zoom: 13,
+    });
     
   // Javascript for marker accessibility was adapted from: https://developers.google.com/maps/documentation/javascript/examples/marker-accessibility
   const walkLocs = [
