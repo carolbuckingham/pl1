@@ -14,13 +14,15 @@
       html,
       body {
         /* set background colour to "Charleston Green", 
-        HEX found via https://coolors.co/ */
+          HEX found via https://coolors.co/ */
         background-color: #2C3531; 
         height: 100%;
         margin: 0;
         padding: 0;
       }
       /* set colour and font styling for all text elements */
+      /* set font colour to "Tumbleweed", 
+        HEX found via https://coolors.co/ */
       * {
         text-align: center;
 	      color: #D9B08C;
@@ -33,6 +35,9 @@
       }
       p {
         font-size: 20px;
+	/* override font colour to "Light Cyan", 
+          HEX found via https://coolors.co/ */
+	font-color: #D1E8E2;
       }
     </style>
   </head>
@@ -40,7 +45,7 @@
     <h1>Neature Walks</h1>
     <p>I used to live in Kingston when I was younger, and I've visited both family and friends in the area on many occasions. 
       I've always been a nature buff and love spending my time outdoors in 'neature', because hey, nature is pretty neat.</p>
-    <p>If you're interested to hear more about how neat nature is, click <a href="https://www.youtube.com/watch?v=Hm3JodBR-vs">here!</a></p>
+    <p>If you're interested to hear more about how neat nature is, click <a href="https://www.youtube.com/watch?v=Hm3JodBR-vs">here</a>!</p>
     <div id="map"></div>
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w&callback=initMap&v=weekly" async></script>
