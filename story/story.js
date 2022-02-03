@@ -8,7 +8,8 @@ function initMap() {
     });
     
   // Javascript for marker accessibility was adapted from: https://developers.google.com/maps/documentation/javascript/examples/marker-accessibility
-  const walkLocs: [google.maps.LatLngLiteral, string][] = [
+  // I had to remove the cycling section included in the template "const walkLocs: [google.maps.LatLngLiteral, string][]"
+  const walkLocs = [
     [{ lat: 44.26037915976495, lng: -76.5413786093249 }, "Cataraqui Cemetery"],
     [{ lat: 44.222401646687636, lng: -76.49854321741287 }, "Breakwater Park"],
     [{ lat: 44.22579286847256, lng: -76.4815015272718 }, "Battery Park"],
